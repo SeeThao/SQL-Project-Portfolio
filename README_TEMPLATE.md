@@ -1,18 +1,17 @@
-# [Project Title]
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+# Determinants & Disparities: How Social Drivers Shape Healthcare Costs in California
+> Cleaned, transformed, and analyzed 2017–2021 California Medicare and SDOH data using SQL to uncover structural care gaps, providing actionable insights to reduce high risk-adjusted spending in vulnerable communities.
 
 ---
 
 ## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
-- [ ] Exploratory Data Analysis (EDA)
-- [ ] SQL Analysis / Querying
-- [ ] Dashboard / Data Visualization
-- [ ] Data Pipeline / ETL
+- [x] Exploratory Data Analysis (EDA)
+- [x] SQL Analysis / Querying
+- [x] Dashboard / Data Visualization
+- [x] Data Pipeline / ETL
 - [ ] Predictive Modelling / Machine Learning
-- [ ] Data Cleaning / Wrangling
-- [ ] End-to-End (multiple of the above)
+- [x] Data Cleaning / Wrangling
+- [x] End-to-End (multiple of the above)
 - [ ] Other: ___________
 
 ---
