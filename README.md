@@ -55,13 +55,7 @@
   (Too vague. Could describe 10,000 projects. Describes none of them.)
 -->
 
-**Context:** [The business, research, or personal situation that motivated this project.]
-
-**Problem Statement:** [The specific question or challenge you were addressing.]
-
-**Approach:** [In 1–2 sentences - how did you tackle it?]
-
-**Outcome:** [What did you produce or discover?]
+As a Case Manager, I connect patients to medical, dental, and mental health care while helping them overcome real-world struggles like housing and financial hardship. This project analyzes California county data from 2017 to 2021 to show how social factors like these directly impact healthcare usage and spending. The results highlight three key insights to help health leaders direct funding and support where it is needed most. 
 
 ---
 
@@ -83,10 +77,10 @@
   (These can't fail - which means they can't succeed either.)
 -->
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
+- **Primary Objective:**  This project evaluates the direct impact of social drivers on healthcare delivery
+- **Secondary Objective 1:** Avoidable Acute Utilization Rate (Clinical)
+- **Secondary Objective 2:** Risk-Adjusted Cost Efficiency Index (Financial)
+- **Secondary Objective 3:** SDOH Social Vulnerability Score (Health Equity)
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
@@ -111,10 +105,10 @@
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **In Scope** | County-level Medicare utilization, spending, and beneficiary demographic data integrated with standardized SDOH metrics across California counties, 2017–2021. Analysis covers healthcare service usage patterns, spending variations, and exploratory SQL querying to identify social driver correlations.|
+| **Out of Scope** | Individual patient-level medical records were excluded due to HIPAA privacy restrictions; states outside California were excluded to maintain focus on state-specific health policy impact; post-2021 datasets were excluded due to CMS reporting lags; predictive machine learning models were excluded as the scope was strictly bounded to descriptive SQL analysis. |
+| **Time Period** | Jan 2017–Dec 2021 (5-year historical trend analysis). |
+| **Granularity** | County-year level aggregates (one record per California county per calendar year). |
 
 ### Tools & Technologies
 
@@ -125,13 +119,13 @@
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Data Storage | CSV files |
+| Data Processing | SQL, Excel |
+| Analysis | Custom SQL queries] |
+| Visualization |  Tableau |
+| Version Control | GitHub] |
+| Documentation | Notion |
+
 
 ---
 
